@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Trần Đăng Vũ",
+    "image": "./Image/Vu/1.png"
+  },
+  {
+    "name": "Dương Anh Tuấn",
+    "image": "./Image/DuongAnhTuan/1.jpeg"
+  },
+  {
+    "name": "Phan Hoàng Tuấn",
+    "image": "./Image/PhanTuan/1.jpeg"
+  },
+  {
+    "name": "Nguyễn Thúy Quỳnh",
+    "image": "./Image/NguyenThuyQuynh/1.jpg"
+  },
+  {
+    "name": "Lê Minh Hoàng",
+    "image": "./Image/MinhHoang/1.png"
+  },
+  {
+    "name": "Lê Tuấn Anh",
+    "image": "./Image/TuanAnh/1.png"
+  },
+  {
+    "name": "Trần Trung Thư",
+    "image": "./Image/ThuTran/1.png"
+  },
+  {
+    "name": "Lê Hoàng Long",
+    "image": "./Image/Long/1.jpg"
+  },
+  {
+    "name": "Nguyễn Mạnh Quyết",
+    "image": "./Image/Quyet/1.png"
+  },
+  {
+    "name": "Nguyễn Tài Huy",
+    "image": "./Image/NguyenTaiHuy/1.jpeg"
+  }
+]

@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto Mono", monospace;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  padding: 40px;
+}
+
+#QR {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.item {
+  --borderWidth: 10px;
+  width: calc((100% - 150px) / 4);
+  position: relative;
+  display: flex;
+}
+
+.item .bound {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 20px 20px 10px;
+  border-radius: var(--borderWidth);
+  background: #fff;
+}
+
+.item:after {
+  content: "";
+  position: absolute;
+  top: calc(-1 * var(--borderWidth));
+  left: calc(-1 * var(--borderWidth));
+  height: calc(100% + var(--borderWidth) * 2);
+  width: calc(100% + var(--borderWidth) * 2);
+  background: linear-gradient(
+    60deg,
+    #f79533,
+    #f37055,
+    #ef4e7b,
+    #a166ab,
+    #5073b8,
+    #1098ad,
+    #07b39b,
+    #6fba82
+  );
+  border-radius: calc(2 * var(--borderWidth));
+  z-index: -1;
+  -webkit-animation: animatedgradient 3s ease alternate infinite;
+  animation: animatedgradient 3s ease alternate infinite;
+  background-size: 300% 300%;
+}
+
+.item2 {
+  flex: 1;
+}
+
+.item .itImage:not(:last-child) {
+  border-right: 1px solid #000;
+}
+
+.image {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  display: flex;
+  max-height: 400px;
+  transition: 0.3s all ease-in-out;
+}
+
+.image .itImage {
+  background: #fff;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.image .itImage img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.item .name {
+  background: #fff;
+  position: relative;
+  z-index: 2;
+  font-weight: bold;
+  text-transform: capitalize;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 30px;
+  width: 100%;
+  transition: 0.3s all ease-in-out;
+}
+
+.item .nameVertical {
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 22px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  text-align: center;
+  padding-right: 10px;
+  white-space: nowrap;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+@-webkit-keyframes animatedgradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes animatedgradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
