@@ -12,7 +12,7 @@ fetch('./data.json')
     .then((array) => {
         if (array && array.length > 0) {
             const html = array.map((g, i) => (
-                `<div class="item wow fadeInDown" data-wow-delay="${(i * 0.2).toFixed(2)}s">
+                `<div class="item wow fadeInDown" data-wow-delay="${((i % 8) * 0.2).toFixed(2)}s">
                     <div class="nameVertical">
                         ${g.name.split(' ').join('<span class="space"></span>')}
                     </div>
