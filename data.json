@@ -1,42 +1,52 @@
 [
   {
     "name": "Trần Đăng Vũ",
-    "image": "./Image/Vu/1.png"
+    "image": "./Image/Vu/1.png",
+    "birthday": "10/01/1989"
   },
   {
     "name": "Dương Anh Tuấn",
-    "image": "./Image/DuongAnhTuan/1.jpeg"
+    "image": "./Image/DuongAnhTuan/1.jpeg",
+    "birthday": "24/04/1985"
   },
   {
     "name": "Phan Hoàng Tuấn",
-    "image": "./Image/PhanTuan/1.jpeg"
-  },
-  {
-    "name": "Nguyễn Thúy Quỳnh",
-    "image": "./Image/NguyenThuyQuynh/1.jpg"
+    "image": "./Image/PhanTuan/1.jpeg",
+    "birthday": "13/09/2000"
   },
   {
     "name": "Lê Minh Hoàng",
-    "image": "./Image/MinhHoang/1.png"
+    "image": "./Image/MinhHoang/1.png",
+    "birthday": "17/02/2000"
   },
   {
     "name": "Lê Tuấn Anh",
-    "image": "./Image/TuanAnh/1.png"
+    "image": "./Image/TuanAnh/1.png",
+    "birthday": "17/05/1994"
   },
   {
     "name": "Trần Trung Thư",
-    "image": "./Image/ThuTran/1.png"
+    "image": "./Image/ThuTran/1.png",
+    "birthday": "19/05/2001"
   },
   {
     "name": "Lê Hoàng Long",
-    "image": "./Image/Long/1.jpg"
+    "image": "./Image/Long/1.jpg",
+    "birthday": "20/07/2000"
   },
   {
     "name": "Nguyễn Mạnh Quyết",
-    "image": "./Image/Quyet/1.png"
+    "image": "./Image/Quyet/1.png",
+    "birthday": "16/06/2001"
   },
   {
     "name": "Nguyễn Tài Huy",
-    "image": "./Image/NguyenTaiHuy/1.jpeg"
+    "image": "./Image/NguyenTaiHuy/1.jpeg",
+    "birthday": "21/05/2001"
+  },
+  {
+    "name": "Nguyễn Thúy Quỳnh",
+    "image": "./Image/NguyenThuyQuynh/1.jpg",
+    "birthday": "13/03/1992"
   }
 ]
