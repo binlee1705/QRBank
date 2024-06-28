@@ -9,16 +9,6 @@
     "image": "./Image/DuongAnhTuan/1.jpeg",
     "birthday": "24/04/1985"
   },
-  // {
-  //   "name": "Phan Hoàng Tuấn",
-  //   "image": "./Image/PhanTuan/1.jpeg",
-  //   "birthday": "13/09/2000"
-  // },
-  // {
-  //   "name": "Lê Minh Hoàng",
-  //   "image": "./Image/MinhHoang/1.png",
-  //   "birthday": "17/02/2000"
-  // },
   {
     "name": "Lê Tuấn Anh",
     "image": "./Image/TuanAnh/1.png",
